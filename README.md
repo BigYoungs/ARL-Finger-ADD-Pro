@@ -99,4 +99,4 @@ ARL-Finger-ADD-Plus 仅供学习交流使用，禁止用于非法用途，否则
 
 ## 下载地址&获取最新版
 
-[https://note.mowen.cn/note-intro/?noteUuid=JnbQB364GpUSxVYGoT5wt](https://note.mowen.cn/note-intro/?noteUuid=JnbQB364GpUSxVYGoT5wt)
+[https://mbd.pub/o/bread/ZZmWl5py](https://mbd.pub/o/bread/ZZmWl5py)
