@@ -95,7 +95,7 @@ ARL-Finger-ADD-Pro本软件，通过BigYoung购买专栏后，有权进行个人
 
 ## 免责声明
 
-ARL-Finger-ADD-Plus 仅供学习交流使用，禁止用于非法用途，否则后果自负。
+ARL-Finger-ADD-Pro 仅供学习交流使用，禁止用于非法用途，否则后果自负。
 
 ## 下载地址&获取最新版
 
