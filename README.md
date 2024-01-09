@@ -54,6 +54,10 @@ python3 ARL_Finger_Add_Plus.py -u http://192.168.1.1:8888 -a admin:arlpass -f al
 3. 如果从2.6.0及以下版本升级到2.6.1的，建议重新导入此工具的指纹，多种逻辑匹配规则，提高了指纹的命中率。
 4. ARL-Finger-ADD-Plus脚本当时限制于ARL的指纹规则，实际导入有效指纹只有4000+，此版本导入**有效指纹6900+**。
 
+### V1.0.1 2024-01-09
+
+1. 修复报错：`ARL Finger YML File 创建失败，报错信息：'gbk' codec can't encode character '\\xa0' in position 13: illegal multibyte sequence`
+
 ## 常见问题
 
 Q：导入指纹库时，返回报错信息：**413错误**
