@@ -20,7 +20,7 @@
 ```
 提示：本工具只适配此项目源码下的Finger指纹，网上下载的Finger指纹可能不适配，如需使用网上下载的Finger指纹，需要自行修改代码。
 
-Usage: ARL_Finger_Add_Plus.py [options]
+Usage: ARL_Finger_Add_Pro.py [options]
 
 Options:
   -h, --help                  show this help message and exit
@@ -38,11 +38,10 @@ Options:
 使用示例：
 
 ARL API Key 用法：
-python3 ARL_Finger_Add_Plus.py -u http://192.168.1.1:8888 -t 1234567890abcdefg -f all
+python3 ARL_Finger_Add_Pro.py -u https://192.168.1.1:8888 -t 1234567890abcdefg -f all
 
 ARL 用户名密码 用法：
-python3 ARL_Finger_Add_Plus.py -u http://192.168.1.1:8888 -a admin:arlpass -f all
-
+python3 ARL_Finger_Add_Pro.py -u https://192.168.1.1:8888 -a admin:arlpass -f all
 ```
 
 ## 版本记录
@@ -57,6 +56,12 @@ python3 ARL_Finger_Add_Plus.py -u http://192.168.1.1:8888 -a admin:arlpass -f al
 ### V1.0.1 2024-01-09
 
 1. 修复报错：`ARL Finger YML File 创建失败，报错信息：'gbk' codec can't encode character '\\xa0' in position 13: illegal multibyte sequence`
+
+### V1.0.2 2024-03-20
+
+1. 修复Bug: 删除所有指纹时，提示：“删除所有指纹失败！失败原因：{res['msg']} KeyError: 'msg'”
+2. 修复Bug：删除所有指纹时，使用账号密码登录失败的问题
+3. 优化：-u 参数的ARL地址必须是https，代码做了此处的兼容处理
 
 ## 常见问题
 
