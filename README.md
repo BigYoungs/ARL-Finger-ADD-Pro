@@ -8,12 +8,13 @@
 
 > 提示：ARL-Finger-ADD-Pro和ARL-Finger-ADD-Plus，两个工具不通用，请**谨慎选择使用**。
 
-## 已支持导入的指纹库列表，共计：9001个
+## 已支持导入的指纹库列表，共计：10667条
 
 1. [Ehole3.1](https://github.com/EdgeSecurityTeam/EHole/releases/tag/v3.1)自带的指纹文件，Finger有1007个
 2. [Finger](https://github.com/EASY233/Finger/blob/main/library/finger.json) 截止2023年3月11日最新版，Finger有1007个
 3. [FingerprintHub](https://github.com/0x727/FingerprintHub/blob/main/web_fingerprint_v3.json) 截止2023年11月23日最新版，Finger有2839个
 4. [dismap](https://github.com/zhzyker/dismap/blob/main/readme-zh.md#-rulelab) 截止2023年12月17日最新版，Finger有4598个
+5. [webfinger](https://github.com/aicoa/hound/blob/main/config/webfinger.yaml) 截止2024年05月11日最新版，Finger有1666个
 
 ## 用法:
 
@@ -29,6 +30,7 @@ Options:
   -f FINGER, --finger=FINGER  Please Enter You Want import Finger, eg:
                               1：Ehole3.1_finger.json        2：Finger_finger.json
                               3：FingerprintHub_finger.json  4：Dismap_rule.go
+                              5: webfinger.yaml
                               all: 导入工具支持的所有指纹
   -t TOKEN, --token=TOKEN     Please Enter Your ARL Auth Token
   -d DELETE_F, --delete_f=DELETE_F
@@ -62,6 +64,14 @@ python3 ARL_Finger_Add_Pro.py -u https://192.168.1.1:8888 -a admin:arlpass -f al
 1. 修复Bug: 删除所有指纹时，提示：“删除所有指纹失败！失败原因：{res['msg']} KeyError: 'msg'”
 2. 修复Bug：删除所有指纹时，使用账号密码登录失败的问题
 3. 优化：-u 参数的ARL地址必须是https，代码做了此处的兼容处理
+
+### V1.1.0 2024-05-07
+
+1. 新增指纹库：[webfinger.yaml](https://github.com/aicoa/hound/blob/main/config/webfinger.yaml)共计1666条，导入ARL后新增不重复700条指纹，共计：**7638**；
+2. 优化日志记录；
+3. 增加Banner信息；
+4. 增加最新版本检测；
+5. 修复Bug；
 
 ## 常见问题
 
