@@ -11,6 +11,7 @@
 3. [FingerprintHub](https://github.com/0x727/FingerprintHub/blob/main/web_fingerprint_v3.json) 截止2023年11月23日最新版，Finger有2839个
 4. [dismap](https://github.com/zhzyker/dismap/blob/main/readme-zh.md#-rulelab) 截止2023年12月17日最新版，Finger有4598个
 5. [webfinger](https://github.com/aicoa/hound/blob/main/config/webfinger.yaml) 截止2024年05月11日最新版，Finger有1666个
+6. [finger](https://github.com/Funsiooo/chunsou/blob/main/modules/config/finger.json) 截止2024年06月26日最新版，Finger有10000+个
 
 ## 用法:
 
@@ -26,7 +27,7 @@ Options:
   -f FINGER, --finger=FINGER  Please Enter You Want import Finger, eg:
                               1：Ehole3.1_finger.json        2：Finger_finger.json
                               3：FingerprintHub_finger.json  4：Dismap_rule.go
-                              5: webfinger.yaml
+                              5: webfinger.yaml              6：finger_chunsou.json
                               all: 导入工具支持的所有指纹
   -t TOKEN, --token=TOKEN     Please Enter Your ARL Auth Token
   -d DELETE_F, --delete_f=DELETE_F
@@ -68,6 +69,10 @@ python3 ARL_Finger_Add_Pro.py -u https://192.168.1.1:8888 -a admin:arlpass -f al
 3. 增加Banner信息；
 4. 增加最新版本检测；
 5. 修复Bug；
+
+### V1.2.0 2024-06-26
+
+1. 新增指纹库：[finger](https://github.com/Funsiooo/chunsou/blob/main/modules/config/finger.json) 共计10000+条，导入ARL后新增不重复4848条指纹，共计：**12488**；
 
 ## 常见问题
 
