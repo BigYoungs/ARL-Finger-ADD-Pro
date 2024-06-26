@@ -4,7 +4,7 @@
 
 批量添加ARL指纹，支持：`ARL V2.6.1及以后版本`，[ARL V2.6.1版本更新指纹检测规则](https://github.com/TophantTechnology/ARL/releases/tag/v2.6.1)。
 
-## 已支持导入的指纹库列表，共计：10667条
+## 已支持导入的指纹库列表，共计：12488条
 
 1. [Ehole3.1](https://github.com/EdgeSecurityTeam/EHole/releases/tag/v3.1)自带的指纹文件，Finger有1007个
 2. [Finger](https://github.com/EASY233/Finger/blob/main/library/finger.json) 截止2023年3月11日最新版，Finger有1007个
