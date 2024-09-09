@@ -2,7 +2,7 @@
 
 ## 主要功能
 
-批量添加ARL指纹，支持：`ARL V2.6.1及以后版本`，[ARL V2.6.1版本更新指纹检测规则](https://github.com/TophantTechnology/ARL/releases/tag/v2.6.1)。
+批量添加ARL指纹，支持：`ARL V2.6.1及以后版本`，[ARL V2.6.1版本更新指纹检测规则](https://tophanttechnology.github.io/ARL-doc/release_log/)。
 
 ## 已支持导入的指纹库列表，共计：12488条
 
